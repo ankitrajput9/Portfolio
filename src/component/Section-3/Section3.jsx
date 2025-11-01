@@ -1,8 +1,12 @@
 import LaserFlow from '@/components/LaserFlow';
 import React from 'react';
 import { useRef } from 'react';
+import { Instagram } from 'lucide-react';
+import { Github } from 'lucide-react';
+import { Linkedin } from 'lucide-react';
 import TextPressure from '@/components/TextPressure';
 import CircularGallery from '@/components/CircularGallery';
+import Social from './Social';
 
 
 <div style={{ height: '500px', position: 'relative', overflow: 'hidden' }}>
@@ -48,22 +52,22 @@ const Section3 = () => {
         top: '50%',
         left: '50%',
         transform: 'translateX(-50%)',
-        width: '86%',
+        width: '88%',
         height: '50%',
         backgroundColor: '#060010',
         borderRadius: '30px',
         border: '2px solid #FF79C6',
         display: 'flex',
         alignItems: 'center',
-        justifyContent: 'center',
+        // justifyContent: 'center',
         color: 'white',
         fontSize: '1.5rem',
         zIndex: 6,
-        paddingTop:"20px",
+        padding: '20px',
        flexDirection:"column",
       }}>
         {/* Your content here */}
-<div style={{position: 'relative', height: '200px'}}>
+<div style={{position: 'relative', height: '150px'}}>
   <TextPressure
     text="Ankit rajput"
     flex={true}
@@ -78,10 +82,19 @@ const Section3 = () => {
   />
 </div>
         {/* Your content Second here */}
-<div className=''>
+<div className=' flex flex-col items-center justify-center text-center gap-8'>
 <h1>I'am a Web Developer and Yes I Developed soo many things.. </h1>
+<p className='text-base'>i love to work on web development and i am very passionate about it. I have worked on many projects and have a good experience in this field. I am always looking for new opportunities to learn and grow my skills. </p>
+<div className='  flex items-center justify-center gap-15'>
+<Social socioName={<Github size={36} />} link="https://github.com/ankitrajput9"/>
+<Social socioName={<Instagram size={36} />} link="https://web.telegram.org/k/"/>
+<Social socioName={<Linkedin size={36} />} link="https://github.com/ankitrajput9"/>
 </div>
 
+
+
+
+</div>
 
       </div>
 
