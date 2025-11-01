@@ -5,7 +5,7 @@ import About from './component/About/About';
 
 const App = () => {
   return (
-    <div>
+    <div className='h-auto' >
 <Section3/>
 <Section4/> 
 <About/>

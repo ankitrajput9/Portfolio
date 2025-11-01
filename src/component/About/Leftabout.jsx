@@ -3,7 +3,7 @@ import Aboutbuttons from './Aboutbuttons';
 
 const Leftabout = () => {
   return (
-    <div className='h-screen w-1/2  flex justify-center flex-col  gap-5 p-10 text-white relative'>
+    <div className='h-scren w-1/2  flex justify-center flex-col  gap-5 p-10 text-white relative '>
       <p className=' text-m font-bold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus a vel fuga qui soluta sed esse, corrupti, perspiciatis aut tempora, natus modi consequuntur repellendus. </p>
       <h1 className='text-2xl font-bold' >Skills & Technologies</h1>
 <div className='flex gap-5 flex-wrap '>
